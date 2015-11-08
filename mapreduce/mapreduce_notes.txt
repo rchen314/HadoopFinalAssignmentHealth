@@ -1,0 +1,38 @@
+Contents:
+
+   InPatient.java       MapReduce file to generate average total cost per procedure
+   InPatientState.java  MapReduce file to generate average total cost per state
+
+   output_by_procedure.txt   Output of InPatient.java
+
+   output_by_state.txt       Output of InPatientState.java
+
+   InPatient.tar        Full Eclipse directory of InPatient project
+
+   InPatientState.tar   Full Eclipse directory of InPatientState project
+
+   opencsv-2.2.jar      Custom CSV handler
+
+
+Notes:
+
+   -Source data file can be retrieved from:
+
+      https://data.cms.gov/Medicare/Inpatient-Prospective-Payment-System-IPPS-Provider/97k6-zzx3
+
+      and specifying "Export - Download as CSV"
+
+   -To make the Eclipse projects work, the above source file needs to be
+    copied to the input directory of that project (not done in the tar files
+    here to save space).
+
+   -A custom jar handling CSV input was downloaded from:
+
+      http://www.java2s.com/Code/Jar/o/Downloadopencsv22jar.htm
+
+    This was used to properly handle the fields within the data file that
+    are surrounded by quotation marks and contain commas within them.
+
+    This jar file is already copied in the lib directory of the project
+    tar files.
+
