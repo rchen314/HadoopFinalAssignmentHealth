@@ -22,8 +22,16 @@ List of files:
       InPatient.tar                       Full Eclipse workspace to run InPatient
 
       InPatientState.tar                  Full Eclipse workspace to run InPatientState
-
+      
       opencsv-2.2.jar                     Custom jar file for processing CSV (see mapreduce_notes.txt)
+      
+      sortProcedure.py                    Python script to sort "output_by_procedure.txt" by cost
+      
+      sortState.py                        Python script to sort "output_by_state.txt" by cost
+      
+      output_by_procedure.txt.sorted      Sorted output -- from most expensive procedure to least
+      
+      output_by_state.txt.sorted          Sorted output -- from most expensive state to least
 
    pig/
 
