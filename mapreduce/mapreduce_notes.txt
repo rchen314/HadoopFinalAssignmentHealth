@@ -13,6 +13,14 @@ Contents:
 
    opencsv-2.2.jar      Custom CSV handler
 
+   sortProcedure.py     Python script to sort procedure data
+
+   sortState.py         Python script to sort state data
+
+   output_by_procedure.txt.sorted   Output of sortProcedure.py
+
+   output_by_state.txt.sorted       Output of sortState.py
+
 
 Notes:
 
@@ -35,4 +43,12 @@ Notes:
 
     This jar file is already copied in the lib directory of the project
     tar files.
+
+   -They python scripts are optional and can be used to rearrange the
+    procedure and state output files so they are sorted by price.  They
+    can be run with the commands:
+
+       python sortProcedure.py output_by_procedure.txt
+
+       python sortState.py output_by_state.txt
 
